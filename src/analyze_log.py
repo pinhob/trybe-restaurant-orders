@@ -83,6 +83,10 @@ def analyze_log(path_to_file):
         ]
 
         with open("data/mkt_campaign.txt", "+w") as file:
+            """
+            com base:
+            https://www.pythontutorial.net/python-basics/python-write-text-file/
+            """
             for line in lines:
                 file.write(str(line))
                 file.write("\n")
